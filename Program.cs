@@ -12,7 +12,9 @@ namespace dotnetcore
             var xNotasBronza = new List<float> { 8, 9, 10, 8 };
 
             Console.WriteLine("Média Zuqui " + CalcularMedia(xNotasZuqui));
+
             Console.WriteLine("Média Bronza " + CalcularMedia(xNotasBronza));
+            
         }
 
         public static float CalcularMedia(List<float> Notas)
